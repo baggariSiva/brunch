@@ -25,7 +25,7 @@ npm run start
 
 This starts your app in development mode, make the changes and push.
 
-<img src="assets\brunch.png" alt="screenshot of the example app" width="100%" />
+<img src="app\assets\brunch.png" alt="screenshot of the example app" width="100%" />
 
 ## CI/CD on Elestio
 
