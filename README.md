@@ -1,13 +1,31 @@
 
 # Brunch example demo CI/CD pipeline
 
-<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/brunch"><img src="public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
+<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/brunch"><img src="app\assets\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
+
 
 # Brunch + React + Babel/ES6
 
-This is a modern JS skeleton with React for [Brunch](http://brunch.io).
+This is a very basic example of a simple Brunch app.
 
-<img src="public\screenshot.png" alt="screenshot of the example app" width="100%" />
+-[Brunch Docs](http://brunch.io).
+
+
+Clone this [elestio-examples/brunch](https://github.com/elestio-examples/brunch) 
+
+```
+git clone https://github.com/elestio-examples/brunch.git
+```
+Change into project directory.
+
+```
+npm install
+npm run start
+```
+
+This starts your app in development mode, make the changes and push.
+
+<img src="assets\brunch.png" alt="screenshot of the example app" width="100%" />
 
 ## CI/CD on Elestio
 
