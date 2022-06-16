@@ -1,31 +1,39 @@
-
 # Brunch example demo CI/CD pipeline
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/brunch"><img src="app\assets\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
+This is a very basic example of a simple Brunch App.
 
-# Brunch + React + Babel/ES6
+<img src="app\assets\brunch.png" alt="screenshot of the Brunch app" width="100%" />
 
-This is a very basic example of a simple Brunch app.
-
--[Brunch Docs](http://brunch.io).
+# Steps to clone this repository and run locally.
 
 
-Clone this [elestio-examples/brunch](https://github.com/elestio-examples/brunch) 
+### Step 1: Clone this repository.
 
 ```
 git clone https://github.com/elestio-examples/brunch.git
 ```
-Change into project directory.
+### Step 2: Go to project folder.
+
+```
+cd brunch
+```
+
+### Step 3: Install dependencies.
 
 ```
 npm install
+```
+
+### Step 4: Run your app in dev mode.
+
+```
 npm run start
 ```
 
-This starts your app in development mode, make the changes and push.
+### Step 5: Make some changes and push.
 
-<img src="app\assets\brunch.png" alt="screenshot of the example app" width="100%" />
 
 ## CI/CD on Elestio
 
@@ -52,7 +60,7 @@ But for this Brunch Template, you can choose GitHub as your deployment method.
 Select Clone in step at step Git Repository and select Brunch template for creating a repository in your git account after that authenticate with Git by clicking on
 Continue with Github button and authorize elestio to access git then you can rename you repository name if you want.
 
-Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the Brunch repo otherwise you can directly insert a git repo URL to deploy the Brunch Application.
+Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the Brunch repo otherwise you can directly insert a git repo URL to deploy the Brunch application.
 
 ### Step 4: Configuration
 
@@ -111,3 +119,5 @@ Now after following all the above steps you can click on the button **Create Ci/
 It will take a few seconds to deploy your pipeline on elestio.
 
 For each pipeline deployed on elestio will create a cname for it. but if you want your custom domain then you can configure it inside the target details.
+
+After Pipeline is deployed you can able to view the app by visiting the pipeline domain.
